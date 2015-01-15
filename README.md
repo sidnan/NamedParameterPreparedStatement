@@ -33,7 +33,7 @@ This library has a Class "NamedParameterPreparedStatement" which allows to creat
 
 ## Sample invocation
 
-Syntax: .... :<param name> ....
+Syntax: .... :[param name] ....
  
 ```
 String query = "SELECT * FROM CUSTOMER WHERE customer_name LIKE :custName";
