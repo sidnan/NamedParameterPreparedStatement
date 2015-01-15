@@ -11,11 +11,11 @@ useful when dealing with a lengthy SQL query with a lot of user passed parameter
 
 Say, in a PreparedStatement, the user parameter is denoted as '?' and it is identified using the position (What is the position of the given parameter in the given set of many '?'s, it gets complicated when dealing with index numbers).
 
-
+```
 ## Solution
 
 If Hiberate is used, with the help of query builder (createSQLQuery) in org.hibernate.Session, one can mention the placeholder parameter name in the SQL and set the values based on the parameter name.
-
+```
 
 
 ## Problem Statement
@@ -35,7 +35,7 @@ This library has a Class "NamedParameterPreparedStatement" which allows to creat
 
 Syntax: .... :<param name> ....
  
-{code}
+```
 String query = "SELECT * FROM CUSTOMER WHERE customer_name LIKE :custName";
 try {
 	NamedParameterPreparedStatement npPrepStmt = new NamedParameterPreparedStatement(getDBConnection(), query);
@@ -51,7 +51,7 @@ try {
 } catch (ClassNotFoundException | SQLException e) {
 	e.printStackTrace();
 }
-{code}
+```
 
 Parameter name : "custName"
 Parameter value: "Asia%"
