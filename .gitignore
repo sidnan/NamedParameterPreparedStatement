@@ -1,4 +1,7 @@
 *.class
+target
+*.versionsBackup
+release.properties
 
 # Package Files #
 *.jar
