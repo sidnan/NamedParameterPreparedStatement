@@ -33,19 +33,39 @@ This library has a Class "NamedParameterPreparedStatement" which allows to creat
 
 
 
-## This Project Maven Dependency can be downloaded from
+## Can be downloaded from
 
-https://oss.sonatype.org/content/repositories/snapshots/com/github/sidnan/
+* http://search.maven.org/
 
+* SNAPSHOTS from -  https://oss.sonatype.org/content/repositories/snapshots/
+
+* Releases from - https://oss.sonatype.org/content/groups/public/
+
+
+Available version 
+
+* 0.1-SNAPSHOT
+
+* 0.1
+
+
+## Can be used as Maven Dependency:-
 
 ```
 <project>
 ...
 ...
 	<repositories>
+		<!-- sonatype repo for snapshot dependencies -->
 		<repository>
-			<id>sonatype.snapshots</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>		
+           	<id>sonatype.snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>     
+		</repository>
+
+		<!-- sonatype repo for release dependencies -->
+		<repository>
+			<id>sonatype.releases</id>
+			<url>https://oss.sonatype.org/content/groups/public/</url>     
 		</repository>
 	</repositories>
 	...
@@ -56,7 +76,7 @@ https://oss.sonatype.org/content/repositories/snapshots/com/github/sidnan/
 		<dependency>
 			<groupId>com.github.sidnan</groupId>
 			<artifactId>NamedParameterPreparedStatement</artifactId>
-			<version>0.1-SNAPSHOT</version>
+			<version>0.1</version>
 		</dependency>
 		...
 		...
