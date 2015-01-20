@@ -1,6 +1,7 @@
 *.class
 target
 *.versionsBackup
+*.releaseBackup
 release.properties
 
 # Package Files #
