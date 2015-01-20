@@ -3,7 +3,7 @@
 	<groupId>com.github.sidnan</groupId>
 	<artifactId>NamedParameterPreparedStatement</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>NamedParameterPreparedStatement</name>
 	<url>https://github.com/sidnan/NamedParameterPreparedStatement</url>
 	
