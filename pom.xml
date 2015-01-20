@@ -3,7 +3,7 @@
 	<groupId>com.github.sidnan</groupId>
 	<artifactId>NamedParameterPreparedStatement</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1-SNAPSHOT</version>
+	<version>0.1</version>
 	<name>NamedParameterPreparedStatement</name>
 	<url>https://github.com/sidnan/NamedParameterPreparedStatement</url>
 	<description>Library to prepare and execute a SQL with parameter name instead of param index/position</description>
@@ -26,7 +26,7 @@
 		<connection>scm:git:git@github.com:sidnan/NamedParameterPreparedStatement.git</connection>
 		<developerConnection>scm:git:git@github.com:sidnan/NamedParameterPreparedStatement.git</developerConnection>
 		<url>git@github.com:sidnan/NamedParameterPreparedStatement.git</url>
-    <tag>HEAD</tag>
+    <tag>NamedParameterPreparedStatement-0.1</tag>
   </scm>
 	
 	<prerequisites>
