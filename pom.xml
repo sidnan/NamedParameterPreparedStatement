@@ -3,10 +3,10 @@
 	<groupId>com.github.sidnan</groupId>
 	<artifactId>NamedParameterPreparedStatement</artifactId>
 	<packaging>jar</packaging>
-	<version>0.2-SNAPSHOT</version>
+	<version>0.1-SNAPSHOT</version>
 	<name>NamedParameterPreparedStatement</name>
 	<url>https://github.com/sidnan/NamedParameterPreparedStatement</url>
-	
+	<description>Library to prepare and execute a SQL with parameter name instead of param index/position</description>
 	<developers>
 		<developer>
 			<name>Siddharth Nandagopal</name>
