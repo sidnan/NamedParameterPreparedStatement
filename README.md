@@ -31,6 +31,42 @@ If the project does not use Hibernate for some reason like
 
 This library has a Class "NamedParameterPreparedStatement" which allows to create SQL with parameter names and handles those parameter names during value mapping and execution. This makes the code understandable, maintainable. This library inturn uses PreparedStatement to execute query.
 
+
+
+## This Project Maven Dependency can be downloaded from
+
+https://oss.sonatype.org/content/repositories/snapshots/com/github/sidnan/
+
+
+```
+<project>
+...
+...
+	<repositories>
+		<repository>
+			<id>sonatype.snapshots</id>
+			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>		
+		</repository>
+	</repositories>
+	...
+	...
+	<dependencies>
+		...
+		...
+		<dependency>
+			<groupId>com.github.sidnan</groupId>
+			<artifactId>NamedParameterPreparedStatement</artifactId>
+			<version>0.1-SNAPSHOT</version>
+		</dependency>
+		...
+		...
+	</dependencies>
+...
+...
+</project>
+```
+
+
 ## Sample invocation
 
 Syntax: .... :[param name] ....
